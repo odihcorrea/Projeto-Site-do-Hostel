@@ -1,0 +1,88 @@
+/* limpar formatação */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* formatação do corpo*/
+body {
+    background-color: gray;
+}
+
+main {
+    width: 960px;
+    margin: 10px auto;
+
+}
+
+/*formatação do cabeçário*/
+
+header {
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#logo {
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 10px ;
+    margin-left: 10px;
+}
+
+#logo img {
+    width: 60px;
+    height: 60px;
+    
+}
+
+nav {
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(223, 134, 9);
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li:hover {
+    transform: scale(1.3);
+    color: black;
+    z-index: 1;
+}
+
+
+
+#capa {
+    width: 100%;
+    height: 10%;
+
+}
+
+#capa img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* formatação do conteúdo */
+article {
+    width: 70%;
+    height: 800px;
+    background-color: white;
+    padding: 10px;
+}
